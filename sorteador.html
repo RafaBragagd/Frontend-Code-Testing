@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <!--Configurações de titulo do site, charset para aceitar caracteres especiais e o arquivo css-->
+    <head>
+        <meta charset="UTF-8" />
+        <title>Sorteador Kenzie</title>
+        <link rel="stylesheet" href="./assets/css/sorteador.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <!--Cabeçalho do site com a logo e o titulo-->
+        <header>
+            <img src="./assets/img/logo.svg" alt="Logo Microsoft Edge">
+            <h1>Sorteadores Kenzie Academy</h1>
+        </header>
+
+        <!--Conteudo principal do site-->
+        <main>
+            <!--Sorteador de nomes-->
+            <section>
+                <div class="SorteadorNum">
+                    <div class="Cabecalho">
+                        <span class="Voltar voltarOFF"><<</span>
+                        <h2>Sortear Numeros</h2>
+                        <span class="Avancar" id="AvancarNum">>></span>
+                    </div>
+                    <p>Crie o sorteio de Numeros facilmente utilizando essa opção, você poderá salvar o sorteio e compartilhar o link com outras pessoas.</p>
+                    <hr>
+                    <p class="Left_Text">Informe o intervalo de numeros</p>
+                    <!--Formulario para o sorteio-->
+                    <div class="InputNumber">
+                        <label>Valor Minimo</label>
+                        <input type="number" id="InMin">
+                    </div>
+                    <hr id="LinhaVertical">
+                    <div class="InputNumber">
+                        <label>Valor Maximo</label>
+                        <input type="number" id="InMax">
+                    </div>
+                    <button id="Sortear_Numeros">Sortear</button>
+                </div>
+                <div class="SorteadorNom NomOff">
+                    <div class="Cabecalho">
+                        <span class="Voltar" id="VoltarNom"><<</span>
+                        <h2>Sortear Nomes</h2>
+                        <span class="Avancar avancarOFF">>></span>
+                    </div>
+                    <p>Crie o sorteio de nomes facilmente utilizando essa opção, você poderá salvar o sorteio e compartilhar o link com outras pessoas.</p>
+                    <hr>
+                    <p class="Left_Text">Adicione os Nomes</p>
+                    <!--Formulario para o sorteio-->
+                    <div>
+                        <label>Adicione os nomes na caixa de texto</label>
+                        <textarea id="Lista_Nomes" placeholder="Adicione os nomes separados por virgula. (Maria, João, André)"></textarea>
+                        <button id="Sortear_Nomes">Sortear</button>
+                    </div>
+                </div>
+                <div class="resultado">
+                    
+                    <span class="fechar">X</span>
+                    <p class="ResultadoText">Resultado:</p>
+            
+                </div>
+            </section>
+        </main>
+
+        <!--Rodape-->
+        <footer></footer>
+    </body>
+    <script src="./assets/js/sorteador.js"></script>
+</html>

@@ -1,0 +1,111 @@
+/*0 - Body*/
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.container{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/*1 - Cabeçalho*/
+.cabecalho{
+    flex-basis: 20%;
+}
+.cabecalho__logo figcaption{
+    display: none;
+}
+
+/*2 - Menu de Navegação*/
+.cabecalho__menuNav{
+    margin-top: 15px;
+}
+.cabecalho__menuNav__listaLinks__links{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.cabecalho__menuNav img{
+    width: 25px;
+}
+.cabecalho__menuNav a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.cabecalho__menuNav a:hover{
+    color: #1da1f2
+}
+
+/*1 - Corpo Principal(Main)*/
+.principal{
+    flex-basis: 70%;
+    border-left: 1px solid #e7ecf0;
+    border-right: 1px solid #e7ecf0;
+
+}
+.principal h1{
+    font-weight: bolder;
+    padding: 10px 30px;
+}
+
+/*2 - formulario de postagem de tweet*/
+.principal__formulario{
+    padding: 10px 30px;
+    border-top: 1px solid #e7ecf0;
+    border-bottom: 10px solid #e7ecf0;
+    text-align: right;
+}
+.principal__formulario textarea{
+    display: block;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 55px;
+}
+.principal__formulario button{
+    background-color: #8ccaf0;
+    border: none;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 20px;
+}
+.principal__formulario button:hover{
+    background-color: #1da1f2
+}
+
+/*2 - Feed de noticias*/
+.principal__feed__listaNoticia{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.principal__feed__listaNoticia__noticia{
+    padding: 20px 30px;
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #e7ecf0;
+}
+.principal__feed__listaNoticia__noticia div{
+    margin-left: 15px;
+}
+.principal__feed__listaNoticia__noticia h2{
+    display: inline-block;
+    font-weight: bold;
+}
+
+.principal__feed__listaNoticia__noticia span{
+    color: #828282;
+    display: inline-block;
+}
+.principal__feed__listaNoticia__noticia p{
+    margin-top: 10px;
+    color: #333333;
+}
+.principal__feed__listaNoticia__noticia p a{
+    color: #0973b4;
+    text-decoration: none;
+}
