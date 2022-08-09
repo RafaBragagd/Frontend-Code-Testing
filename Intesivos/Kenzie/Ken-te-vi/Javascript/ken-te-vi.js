@@ -42,7 +42,7 @@ function criarTweet(texto){
     const tweet = {
         nome: "Daniel",
         tempo: `${hora}:${minutos}`,
-        foto: "./assets/img/img/ProfilePic.png",
+        foto: "./img/ProfilePic.png",
         usuario: '@danielkenzie',
         texto: texto,
 
