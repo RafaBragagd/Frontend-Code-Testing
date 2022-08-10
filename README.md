@@ -10,6 +10,6 @@ Neste repositório estão os códigos criados para auxiliar em meu Aprendizado c
     - Site simples com os recursos básicos do frontend.
     - Funções em javascript.
     - Matrizes e Loops em Javascript.
-    - Node.js e React.js.
-        No entanto, Node e React não estão disponíveis no github pois os mesmos utilizam um repositório clonado dos serviços da microsoft, ao qual não são rastreáveis pelo git.
+    - A base do Node.js e do NPM.
+	- Estudos do uso do react para produzir componentes mesclando HTML e Javascript.
 - Outros estudos podem ser encontrado no CodePen: https://codepen.io/Rafa-Braga
